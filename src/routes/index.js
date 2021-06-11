@@ -6,4 +6,6 @@ router.get("/",(req,res)=>{
     res.send("index");
 });
 
+router.get
+
 module.exports = router;    

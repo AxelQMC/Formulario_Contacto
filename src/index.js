@@ -30,6 +30,8 @@ app.use((req,res,next) =>{
 //routes
 app.use(require("./routes/index"));
 app.use("/formulario",require("./routes/form"));
+app.use("/managger",require("./routes/MessageManagger"));
+    
 
 //public
 app.use(express.static(path.join(__dirname, "public")));
