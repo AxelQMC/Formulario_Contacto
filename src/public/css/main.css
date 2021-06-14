@@ -1,3 +1,9 @@
 body{
     background-color: darkslategray;
 }
+
+.antibot{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+}
